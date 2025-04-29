@@ -25,7 +25,7 @@ function getEndpoints(deviceAddress, endpoints)
 
    endpoints.addEndpoint("1", "Flujo", endpointType.flowSensor);
    var f = endpoints.addEndpoint("2", "Flujo acumulativo", endpointType.genericSensor);
-   f.variableTypeId = 1342;
+   f.variableTypeId = 1027;
   
 }
 
